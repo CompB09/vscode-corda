@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import SimpleTable from './SimpleTable';
 
+
 class App extends Component {
     render() {
 

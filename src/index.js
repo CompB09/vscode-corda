@@ -1,6 +1,9 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import App from './App';
+import { render } from 'react-dom';
+import App1 from './App1';
+
 
 
 const logEntry = {
@@ -16,6 +19,12 @@ const logEntry = {
       <App entry={logEntry} />,
       document.getElementById('root')
   );
+
+  const Appl = () => (
+    <App1 />
+  );
+  
+  render(<Appl />, document.getElementById('root'));
 
 
   

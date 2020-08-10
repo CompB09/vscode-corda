@@ -32,7 +32,6 @@ function createData(name, time, message) {
                 <TableCell component="th" scope="row">
                   {row.name}
                 </TableCell>
-                <TableCell align="right">{row.name}</TableCell>
                 <TableCell align="right">{row.time}</TableCell>
                 <TableCell align="right">{row.message}</TableCell>
               </TableRow>
